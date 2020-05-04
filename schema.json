@@ -1,0 +1,220 @@
+{
+  "basics": {
+    "name": "Denis Plaksiychuk",
+    "label": "Telecom Technical Support Engineer & Front-end Developer",
+    "picture": "",
+    "email": "denpla@gmail.com",
+    "phone": "+32 473-26-96-23",
+    "website": "http://denpla.com",
+    "summary": "I'm a dedicated and experienced telecommunication engineer within a total 16 years of experience of which 10 years in GSM and 6 years in fixed networks. In 1990 I fell in love with seeing a PC for the first time in my life. Here my passion for the IT industry began and so I've started my career in technical support in telecom. I was a specialist in PC hardware, designing, layout making, and system administrating. In 2020 I've decided to gain new skills and boost my career joining the training for Front-End Developing in the IT school INTEC Brussels. Currently, I'm looking for opportunities where I can further upgrade my programming skills and new horizons open up for me in the area of Front-End and possibly BackEnd development.",
+    "location": {
+      "address": "Dieweg, 34A",
+      "postalCode": "1180",
+      "city": "Uccle",
+      "countryCode": "Belgium",
+      "region": "Brussels"
+    },
+    "profiles": [{
+        "network": "LinkedIn",
+        "username": "Denis",
+        "url": "https://www.linkedin.com/in/denis-plaksiychuk-6b26327/"
+      },
+      {
+        "network": "Facebook",
+        "username": "Denis",
+        "url": "https://www.facebook.com/denis.plaksiychuk"
+      },
+      {
+        "network": "Github",
+        "username": "Denis",
+        "url": "https://github.com/denpla"
+      }
+    ]
+  },
+  "work": [{
+      "company": "Intec Brussels",
+      "position": "Front-End Developing course",
+      "website": "http://www.intecbrussel.be/",
+      "startDate": "2020-01-27",
+      "summary": "Full-time intense course of HTML, CSS, Javascript and modern applications for Front-End Developing using also such popular Javascript frameworks as VUE and React."
+    },
+    {
+      "company": "Penta Consulting",
+      "position": "Technical Support Engineer",
+      "website": "https://www.pentaconsulting.com/",
+      "startDate": "2019-04-01",
+      "summary": "Technical support and troubleshooting of Alcatel-Lucent OMCR for customer Etisalat (Sri Lanka). Technical support and troubleshooting of Alcatel-Lucent OMCR and BSC MX equipment for customer Getesa (Equatorial Guinea). Work on service deck system of Penta Consulting."
+    },
+    {
+      "company": "Proximus Belgium & Penta Consulting",
+      "position": "Technical Support Engineer Alcatel S12 Level3",
+      "website": "https://www.pentaconsulting.com/",
+      "startDate": "2018-01-01",
+      "summary": "Technical support and troubleshooting of Alcatel-Lucent S12 fixed exchanges in the frame of maintenance contract with Proximus company group in Belgium. Work on service deck system of Penta Consulting."
+    },
+    {
+      "company": "Proximus Belgium, Nokia & Penta Consulting",
+      "position": "Technical Support Engineer Alcatel S12 Level2 & OLO",
+      "website": "https://www.proximus.com/",
+      "startDate": "2012-05-01",
+      "summary": "Technical support and troubleshooting of Alcatel-Lucent S12 fixed exchanges in Belgium for Proximus company group as the subcontractor from Nokia and Penta Consulting including on-call duty. Troubleshooting for Other Local Operators (OLO) interconnect project. Work on service deck system of Proximus."
+    },
+    {
+      "company": "Alcatel-Lucent Moscow",
+      "position": "Technical Support Engineer at Moscow Technical Support Organization",
+      "website": "https://www.alcatel-lucent.com/",
+      "startDate": "2003-03-01",
+      "summary": "Technical support and troubleshooting Level2/3 of Alcatel-Lucent S12 mobile exchanges in Russia for many of major customers. Technical support and troubleshooting of Alcatel-Lucent OMCR and BSC equipment. Technical support and troubleshooting of ALcatel SMC/CMC for S12. On-call duty for all lines of supporting products. Test products and features in laboratory. Work on service deck system of Alcatel-Lucent."
+    },
+    {
+      "company": "Apostrof TS Moscow",
+      "position": "Network Engineer and System Administrator",
+      "website": "http://www.apostrof.ru/",
+      "startDate": "2002-07-01",
+      "summary": "Server administration based on Microsoft server solutions.Network and security administration. New installations enrollment and purchasing new equipment. User technical support."
+    },
+    {
+      "company": "TAIF-Radiotelecommunication Ink, TAIF-Intelset Ink. Kazan",
+      "position": "Project Engineer",
+      "website": "http://www.taif.ru/",
+      "startDate": "2000-11-01",
+      "summary": "Design and implementation of the network projects at group of TAIF company. Customers support. PABX Ericsson MD110 andBusiness Phone commissioning. Powerware On-line UPS 60kVa installation."
+    },
+    {
+      "company": "CIVT KSU (The Center of Computer Techniques in the Kazan State University)",
+      "position": "Technical Support Specialist",
+      "website": "https://kpfu.ru/eng",
+      "startDate": "1997-01-01",
+      "summary": "Design and implementation network projects at Kazan State University. Installation and administration the network infrastructure. Introduction to the Network Technologies lectures (KSU - developed) for various customers."
+    }
+  ],
+  "education": [{
+    "institution": "Kazan State University",
+    "area": "Applied Mathematics",
+    "studyType": "Master",
+    "startDate": "1991-09-01",
+    "endDate": "1996-07-01",
+    "gpa": "",
+    "courses": [""]
+  }],
+  "certification": [{
+      "date": "2008",
+      "courses": "Oracle 9i SQL&PL/SQL basics"
+    },
+    {
+      "date": "2007",
+      "courses": "SCSA Sun Certified System Administrator Solaris9"
+    },
+    {
+      "date": "2007",
+      "courses": "SCNA Sun Certified Network Administrator Solaris9"
+    },
+    {
+      "date": "2005",
+      "courses": "Alcatel 1360 SMC 3. 2.2, Workshop for TAC Engineers"
+    },
+    {
+      "date": "2005",
+      "courses": "Alcatel 1360 SMC 3.2.2, OAM for TAC Engineers"
+    },
+    {
+      "date": "2004",
+      "courses": "Alcatel 1000 S12 WR. 1A Advanced maintenance Engineer"
+    },
+    {
+      "date": "2003",
+      "courses": "Alcatel 1000 S12 MSC GSM, O&M Engineer"
+    },
+    {
+      "date": "2003",
+      "courses": "Alcatel 8338/60 HLR, O&M Engineer"
+    },
+    {
+      "date": "2003",
+      "courses": "Alcatel 1000 S12 IN-Handling on SSP"
+    },
+    {
+      "date": "2003",
+      "courses": "Alcatel 1000 S12 AMADEUS Application"
+    },
+    {
+      "date": "2000",
+      "courses": "Ericsson (MD110 BC10 Implement & manage)"
+    },
+    {
+      "date": "2000",
+      "courses": "Ericsson (BP 50/250 Implement & manage)"
+    },
+    {
+      "date": "2000",
+      "courses": "Powerware UPS installer/engineer Prime/Profile up to 60kVA"
+    }
+  ],
+  "misc": {
+    "descr": "From 2010 till 2012 I've passed the training for Alcatel-Lucent BSS equipment: 9100 BTS, 9130 BSC&MFS MX, 9153 OMCR&NPO and also NRS1 (Network routing specialist) exam preparation and LTE including the introduction to SR 7750 equipment in Alcatel University Moscow."
+  },
+
+  "skills": [{
+    "name": "General",
+    "level": 5,
+    "keywords": [
+      "Platform troubleshooting",
+      "System administration",
+      "Front-End Developing"
+    ]
+  }],
+  "skills1": [{
+      "name": "Platforms",
+      "keywords": ["MSC (Mobile Switching Center) Alcatel 1000 System 12", "Alcatel 1000 System 12 fixed", "Alcatel-Lucent 9120 BSC, 9130 BSC&MFS, 9100 BTS", "Alcatel-Lucent 9153 OMCR&NPO", "SUN, HP, CISCO"]
+    },
+    {
+      "name": "Equipment",
+      "keywords": ["Alcatel-Lucent, Nokia", "SUN, HP", "Cisco", "Tektronix, Ericsson, Powerware"]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": ["Windows", "SUN Solaris 9/10", "HP-UX 11", "LINUX"]
+    },
+    {
+      "name": "Network Protocols",
+      "keywords": ["CCS N7", "TCP/IP stack"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Alcatel-Lucent SMA, SMC-CMC, OMCR", "Tektronix K1297/K15  protocol tester software", "OSIX", "VMware", "Visual Studio Code"]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["Relational database S12", "Oracle 9i SQL&PL/SQL(basic)", "Firebase"]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": ["S12 MPTMON script language (multiprocessor test monitor)", "Unix bash", "HTML, CSS, Javascript"]
+    }
+  ],
+  "interests": [{
+      "name": "Web Development",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Design",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Marketing",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Support",
+      "keywords": [
+        ""
+      ]
+    }
+  ]
+}

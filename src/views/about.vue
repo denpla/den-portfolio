@@ -1,0 +1,61 @@
+<template>
+  <v-container class="section1 pa-5 mx-0 white" id="about">
+    <!-- <back1 /> -->
+    <h2 class="display-3 font-weight-thin grey--text mb-4">About Me</h2>
+    <v-col cols="12" md="7">
+      <v-row justify="space-between">
+        <v-col cols="12" md="7">
+          <div class="mb-0">
+            <p v-text="schema.basics.summary" />
+          </div>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-row justify="center">
+            <v-col
+              cols="6"
+              class="text-uppercase primary--text font-weight-medium"
+            >
+              <div class="mb-3" v-text="'Location'" />
+              <div class="mb-3" v-text="'Email'" />
+              <div class="mb-3" v-text="'Phone'" />
+            </v-col>
+
+            <v-col cols="6" class="subheading text-no-wrap">
+              <div class="mb-3" v-text="schema.basics.location.region" />
+              <div class="mb-3 " v-text="schema.basics.email" />
+              <div class="mb-3" v-text="schema.basics.phone" />
+            </v-col>
+            <v-col cols="6">
+              <v-row justify="center">
+                <v-btn class="primary" small>Download CV</v-btn>
+              </v-row>
+            </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
+
+      <v-img
+        src="@/assets/back1d.png"
+        style="width: calc(100px + 15vw); margin-top: 95vh ; right: 0; position: absolute; top: 0px; z-index=0"
+      />
+    </v-col>
+  </v-container>
+</template>
+
+<script>
+import { mapState } from "vuex";
+export default {
+  name: "About",
+  data() {
+    return {};
+  },
+
+  components: {
+    // back1: () => import("@/components/back1"), //
+  },
+  computed: {
+    ...mapState("app", ["schema"]),
+  },
+};
+</script>
+<style scooped></style>

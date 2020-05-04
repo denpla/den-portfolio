@@ -1,4 +1,4 @@
-# den1-portfolio
+# den-portfolio
 
 ## Project setup
 ```

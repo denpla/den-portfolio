@@ -14,9 +14,9 @@
       <v-btn text class="blue darken-3 white--text mx-1" href="/" >
         Home
       </v-btn>
-       <v-btn text class="blue darken-3 white--text mx-1"  href="/Blog">
+       <!-- <v-btn text class="blue darken-3 white--text mx-1"  href="/Blog"> 
         Blog
-      </v-btn>
+      </v-btn>-->
        <v-btn text class="blue darken-3 white--text mx-1" href="#work">
        My work
       </v-btn>

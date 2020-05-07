@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <v-app-bar flat app color="blue lighten-2">
+    <v-app-bar flat dense app color="blue lighten-2">
       <!-- <v-app-bar-nav-icon
         class="darken-3--text"
         @click="drawer = !drawer" 
@@ -11,16 +11,16 @@
         <span></span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text class="blue darken-3 white--text mx-1" href="/" >
+      <v-btn small text class="blue darken-3 white--text font-weight-light mx-1" href="/" >
         Home
       </v-btn>
        <!-- <v-btn text class="blue darken-3 white--text mx-1"  href="/Blog"> 
         Blog
       </v-btn>-->
-       <v-btn text class="blue darken-3 white--text mx-1" href="#work">
+       <v-btn small text class=" blue darken-3 white--text font-weight-light mx-1" href="#work">
        My work
       </v-btn>
-       <v-btn text class="blue darken-3 white--text mx-1" href="#contact">
+       <v-btn small text class=" blue darken-3 white--text font-weight-light mx-1" href="#contact">
         Contacts
       </v-btn>
     </v-app-bar>

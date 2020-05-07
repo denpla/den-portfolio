@@ -2,13 +2,14 @@
   <v-container class="section1 pa-5 mx-0 white" id="about">
     <!-- <back1 /> -->
     <h2 class="display-3 font-weight-thin grey--text mb-4">About Me</h2>
-    <v-col cols="12" md="7">
+    <v-col cols="12" md="9">
       <v-row justify="space-between">
         <v-col cols="12" md="7">
           <div class="mb-0">
             <p v-text="schema.basics.summary" />
           </div>
         </v-col>
+
         <v-col cols="12" md="4">
           <v-row justify="center">
             <v-col

@@ -1,7 +1,12 @@
 <template>
   <v-container class="section1 pa-5 mx-0 white" id="about">
     <!-- <back1 /> -->
-    <h2 class="display-3 font-weight-thin grey--text mb-4">About Me</h2>
+    <h2
+      :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
+      class="display-3 font-weight-thin grey--text mb-4"
+    >
+      About Me
+    </h2>
     <v-col cols="12" md="9">
       <v-row justify="space-between">
         <v-col cols="12" md="7">
@@ -27,8 +32,13 @@
               <div class="mb-3" v-text="schema.basics.phone" />
             </v-col>
             <v-col cols="6">
-              <v-row justify="center">
-                <v-btn class="primary" small>Download CV</v-btn>
+              <v-row>
+                <a
+                  href="./CV_Denis_Plaksiychuk.pdf"
+                  download="CV_Denis_Plaksiychuk.pdf"
+                >
+                  <v-btn class="primary" small>Download CV</v-btn>
+                </a>
               </v-row>
             </v-col>
           </v-row>
@@ -37,7 +47,7 @@
 
       <v-img
         src="@/assets/back1d.png"
-        style="width: calc(100px + 15vw); margin-top: 95vh ; right: 0; position: absolute; top: 0px; z-index=0"
+        style="width: calc(100px + 15vw); margin-top: 95vh ; right: 0; position: absolute; top: 0px; z-index:0 "
       />
     </v-col>
   </v-container>

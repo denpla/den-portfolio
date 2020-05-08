@@ -14,13 +14,17 @@
       >
         <div cols="12" md="6">
           <div
-            class="display-4 blue darken-3 yellow--text text--darken-1
+            :class="`display-${$vuetify.breakpoint.mdAndUp ? '4' : '3'}`"
+            class="blue darken-3 yellow--text text--darken-1
           font-weight-thin px-2 py-2"
           >
             {{ text1 }}
           </div>
 
-          <h2 class="subtitle-1 blue darken-2 white--text px-4 py-2">
+          <h2
+            :class="`subtitle-${$vuetify.breakpoint.mdAndUp ? '1' : '2'}`"
+            class="subtitle-1 blue darken-2 white--text px-4 py-2"
+          >
             {{ text2 }}
           </h2>
         </div>

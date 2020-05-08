@@ -1,7 +1,9 @@
 <template>
 <v-container class="section1 pa-5 mx-0" id="contact">
   <!-- <back3 /> -->
-      <h2 class="display-3 font-weight-thin grey--text mb-4">Contact Me</h2>
+      <h2
+      :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
+       class="display-3 font-weight-thin grey--text mb-4">Contact Me</h2>
       <v-col cols="12">
   <v-row justify="center">
     <v-col
@@ -15,36 +17,36 @@
       </h2>
           <br>
           <br>
-      <v-form>
-        <v-text-field
+      <v-form @submit.prevent="sendEmail">
+        <v-text-field type="text" name="user_name"
           solo-inverted
           flat
           label="Name"
         />
 
-        <v-text-field
+        <v-text-field type="email" name="user_email"
           solo-inverted
           flat
           label="Email"
         />
 
-        <v-text-field
+        <v-text-field name="subject"
           solo-inverted
           flat
           label="Subject"
         />
 
-        <v-textarea
+        <v-textarea name="message"
           solo-inverted
           flat
           label="Message"
         />
 
-        <v-btn
+        <v-btn type="submit" value="Send"
           class="ma-0"
           color="primary"
         >
-          Contact Me
+          Submit
         </v-btn>
       </v-form>
     </v-col>
@@ -146,6 +148,7 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
  
   import {
     mapState,
@@ -162,6 +165,16 @@
     computed: {
       ...mapState('app', ['schema']),
     },
+    methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
+  }
   }
 </script>
 <style >

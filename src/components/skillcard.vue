@@ -18,7 +18,7 @@
             dense
             empty-icon="mdi-record"
             full-icon="mdi-record"
-            :value="value.level"
+            :value="value.level--"
             background-color="grey darken-4"
             readonly
           />

@@ -191,30 +191,6 @@
       "name": "Programming Languages",
       "keywords": ["S12 MPTMON script language (multiprocessor test monitor)", "Unix bash", "HTML, CSS, Javascript"]
     }
-  ],
-  "interests": [{
-      "name": "Web Development",
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Design",
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Marketing",
-      "keywords": [
-        ""
-      ]
-    },
-    {
-      "name": "Support",
-      "keywords": [
-        ""
-      ]
-    }
   ]
+
 }

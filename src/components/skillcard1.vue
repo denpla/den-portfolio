@@ -7,7 +7,7 @@
         v-for="(skill1, i) in value.keywords"
         :key="i"
         align="center"
-        class="mb-2 mx-0"
+        class="mb-2 mx-2"
       >
         <v-col cols="10">
           <li class="primary--text">

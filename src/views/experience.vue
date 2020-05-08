@@ -1,6 +1,9 @@
 <template>
   <v-container class="section2 pa-5 mx-0 blue darken" id="experience">
-    <h2 class="display-3 font-weight-thin grey--text text--lighten-1 mb-4">
+    <h2
+      :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
+      class="display-3 font-weight-thin grey--text text--lighten-1 mb-4"
+    >
       Experience
     </h2>
 

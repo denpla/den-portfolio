@@ -2,7 +2,10 @@
   <v-container class="section1 pa-5 mx-0 grey lighten-3" id="skills">
     <v-col cols="12">
       <v-row justify="space-between">
-        <h2 class="display-3 font-weight-thin grey--text text--darken-2 mb-4">
+        <h2
+          :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
+          class="display-3 font-weight-thin grey--text text--darken-2 mb-4"
+        >
           Skills
         </h2>
       </v-row>

@@ -30,13 +30,13 @@
           label="Email"
         />
 
-        <v-text-field name="subject"
+        <v-text-field name="user_subject"
           solo-inverted
           flat
           label="Subject"
         />
 
-        <v-textarea name="message"
+        <v-textarea name="user_message"
           solo-inverted
           flat
           label="Message"
@@ -167,7 +167,7 @@ import emailjs from 'emailjs-com';
     },
     methods: {
     sendEmail: (e) => {
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      emailjs.sendForm('gmail', 'template_D8LZSPcC', e.target, 'user_DoHt0fZco80Hoq7nB8hQb')
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
         }, (error) => {

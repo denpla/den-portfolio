@@ -32,7 +32,7 @@
               <div class="mb-3" v-text="schema.basics.phone" />
             </v-col>
             <v-col cols="6">
-              <v-row>
+              <v-row justify="center">
                 <a
                   href="./CV_Denis_Plaksiychuk.pdf"
                   download="CV_Denis_Plaksiychuk.pdf"

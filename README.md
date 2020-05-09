@@ -1,4 +1,5 @@
 # den-portfolio
+This is a big VUE.js project for Intec Brussels IT school. Project performed with VUE, Vuetify and VUEX.
 
 ## Project setup
 ```
@@ -23,5 +24,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # portfolio
-# Mycard
 # den-portfolio

@@ -47,17 +47,10 @@
         <v-btn type="submit" value="Send" 
           class="ma-0"
           color="primary"
-           @click="resetForm()"   
+          @click="resetForm()"   
         >
-          Submit
+          Send
         </v-btn>
-        <!-- <v-btn value="reset" 
-          class="ma-0"
-          color="primary"
-              @click="resetForm()"
-        >
-          Reset
-        </v-btn> -->
       </v-form>
     </v-col>
 
@@ -187,6 +180,7 @@ import emailjs from 'emailjs-com';
 
     resetForm () {
        document.getElementById("form").reset();
+       alert("Thank you for the mail!");
          }
   }
   }

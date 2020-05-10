@@ -17,7 +17,7 @@
       </h2>
           <br>
           <br>
-      <v-form @submit.prevent="sendEmail">
+      <v-form @submit.prevent="sendEmail" id="form">
         <v-text-field type="text" name="user_name"
           solo-inverted
           flat
@@ -40,14 +40,24 @@
           solo-inverted
           flat
           label="Message"
+          background-color="grey lighten-3"
+                     
         />
 
-        <v-btn type="submit" value="Send"
+        <v-btn type="submit" value="Send" 
           class="ma-0"
           color="primary"
+           @click="resetForm()"   
         >
           Submit
         </v-btn>
+        <!-- <v-btn value="reset" 
+          class="ma-0"
+          color="primary"
+              @click="resetForm()"
+        >
+          Reset
+        </v-btn> -->
       </v-form>
     </v-col>
 
@@ -173,7 +183,11 @@ import emailjs from 'emailjs-com';
         }, (error) => {
             console.log('FAILED...', error);
         });
-    }
+    },
+
+    resetForm () {
+       document.getElementById("form").reset();
+         }
   }
   }
 </script>

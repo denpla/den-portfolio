@@ -5,8 +5,6 @@
       <about />
       <experience />
       <skills />
-      <!-- <add-certifications /> -->
-      <!-- <add-education /> -->
       <work />
       <contact />
     </v-container>
@@ -14,14 +12,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-//import Start from "@/components/start.vue";
-//import About from "@/components/about.vue";
-//import Experience from "@/components/experience.vue";
-//import Skills from "@/components/skills.vue";
-//import Contact from "@/components/contact.vue";
-//import Work from "@/components/work.vue";
-
 export default {
   name: "Home",
   components: {
@@ -31,13 +21,6 @@ export default {
     skills: () => import("@/views/skills"),
     work: () => import("@/views/work"),
     contact: () => import("@/views/contact"),
-
-    //"add-start": start,
-    // "add-about": About,
-    // "add-experience": Experience,
-    // "add-skills": Skills,
-    // "add-work": Work,
-    // "add-contact": Contact,
   },
 
   data: () => ({

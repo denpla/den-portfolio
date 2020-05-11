@@ -1,12 +1,7 @@
 <template>
   <nav>
     <v-app-bar flat dense app color="blue lighten-2">
-      <!-- <v-app-bar-nav-icon
-        class="darken-3--text"
-        @click="drawer = !drawer" 
-      >
-      </v-app-bar-nav-icon>-->
-      <v-toolbar-title class="blue--text">
+           <v-toolbar-title class="blue--text">
         <span class="font-weight-light"></span>
         <span></span>
       </v-toolbar-title>
@@ -14,10 +9,7 @@
       <v-btn small text class="blue darken-3 white--text font-weight-light mx-1" href="/" >
         Home
       </v-btn>
-       <!-- <v-btn text class="blue darken-3 white--text mx-1"  href="/Blog"> 
-        Blog
-      </v-btn>-->
-       <v-btn small text class=" blue darken-3 white--text font-weight-light mx-1" href="#work">
+            <v-btn small text class=" blue darken-3 white--text font-weight-light mx-1" href="#work">
        My work
       </v-btn>
        <v-btn small text class=" blue darken-3 white--text font-weight-light mx-1" href="#contact">
@@ -28,7 +20,7 @@
       <v-layout column class="align-center">
         <v-flex class="mt-5 fill-height">
           <v-avatar size="150" class="align-center">
-            <img src="../assets/Denis4.jpg" alt="Me" />
+            <img src="../assets/Denis4a.jpg" alt="Me" />
           </v-avatar>
         </v-flex>
 
@@ -57,21 +49,7 @@
         </v-btn>
       </v-list-item>
       </v-list>
-      <!-- <v-list class="menu mt-4"> 
-        <v-list-item
-          v-for="link in links"
-          :key="link.text"
-                router
-          :to="link.route"
-        >
-          <v-list-item-content class="blue darken-3">
-            <v-list-item-title class="white--text d-flex justify-center">{{
-              link.text
-            }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list> -->
-   
+     
         <v-container class="mt-6">   
       <v-container class="mt-12">
         <v-container class="mt-12">
@@ -90,8 +68,7 @@
       </v-container>
    </v-container>
     </v-navigation-drawer>
-  
-  </nav>
+    </nav>
 </template>
 
 <script>
@@ -127,26 +104,10 @@ export default {
         },
        
       ],
-    
-    
-      }),
+     }),
 }
 
- /* data() {
-    return {
-      drawer: true,
-      links: [
-        { text: "Home", route: "/" },
-        { text: "About Me", route: "/about" },
-        { text: "Experience", route: "/experience" },
-        { text: "Skills & Certifications", route: "/skills" },
-        { text: "Work", route: "/work" },
-        { text: "Contact", route: "/contact" }, 
-        
-      ],
-    };
-  },
-*/
+ 
 
 </script>
 

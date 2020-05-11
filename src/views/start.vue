@@ -1,5 +1,5 @@
 <template>
-  <v-img :src="require('@/assets/Background3.png')" height="95vh">
+  <v-img :src="require('@/assets/Background3a.png')" height="95vh">
     <div
       cols="12"
       md="6"

@@ -17,12 +17,8 @@ export default {
   components: {
     "add-navbar": navbar,
     "add-footer": footer,
-
-    //  "add-back": back
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <v-footer class="grey lighten-2">
     <v-spacer></v-spacer>
-    <div>DPLA &copy; {{ new Date().getFullYear() }}</div>
+    <div>denpla &copy; {{ new Date().getFullYear() }} v.1.0</div>
   </v-footer>
 </template>
 

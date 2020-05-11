@@ -4,11 +4,11 @@
       <h2
       :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
        class="display-3 font-weight-thin grey--text mb-4">Contact Me</h2>
-      <v-col cols="12">
+      <v-col xs12>
   <v-row justify="center">
     <v-col
       cols="12"
-      md="5"
+      md="6"
       class="mb-4 pr-md-5"
     >
       
@@ -155,10 +155,10 @@ import emailjs from 'emailjs-com';
  
   import {
     mapState,
-  } from 'vuex'
+  } from "vuex"
 
   export default {
-    name: 'Contact',data() {
+    name: "Contact",data() {
     return {};
   },
      components: {

@@ -37,7 +37,7 @@
           />
         </v-col>
 
-        <v-col id="skills" cols="12" md="4" tag="section">
+        <v-col id="skills" cols="12" md="5" tag="section">
           <h3 class="headline font-weight-medium mb-4 primary--text">
             Skills
           </h3>

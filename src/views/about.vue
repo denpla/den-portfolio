@@ -7,7 +7,7 @@
     >
       About Me
     </h2>
-    <v-col cols="12" md="9">
+    <v-col cols="12" md="9" sm="8">
       <v-row justify="space-between">
         <v-col cols="12" md="7">
           <div class="mb-0">

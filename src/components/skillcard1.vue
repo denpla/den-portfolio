@@ -2,17 +2,17 @@
   <div class="mb-4">
     <h4 class="text-uppercase mb-3 primary--text" v-text="value.name" />
 
-    <div class="pl-md-4">
+    <div col="12" md="9" class="pl-md-4">
       <v-row
-        v-for="(skill1, i) in value.keywords"
-        :key="i"
+        v-for="(skill1, j) in value.keywords"
+        :key="j"
         align="center"
-        class="mb-2 mx-2"
+        class="mx-0"
       >
-        <v-col cols="10">
+        <v-col cols="12">
           <li class="primary--text">
-            <h5
-              class="subtitle-2 font-weight-bold black--text"
+            <span
+              class="subtitle-1 font-weight-regular black--text"
               v-text="skill1"
             />
           </li>

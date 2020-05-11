@@ -14,7 +14,11 @@
           :key="i"
           v-bind="getAttrs()"
         >
-          <span slot="opposite" v-text="item.startDate.slice(0, 4)" />
+          <span
+            class="black--text"
+            slot="opposite"
+            v-text="item.startDate.slice(0, 4)"
+          />
 
           <v-card class="pa-3">
             <h3 class="subheading font-weight-bold" v-text="item.company" />
@@ -30,7 +34,7 @@
 import { mapState } from "vuex";
 
 export default {
-  name: "experience",
+  name: "Experience",
 
   data: (vm) => ({
     light: vm.random(),

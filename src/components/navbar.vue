@@ -24,9 +24,9 @@
         Contacts
       </v-btn>
     </v-app-bar>
-    <v-navigation-drawer app v-model="drawer" class="blue darken-3">
+    <v-navigation-drawer app class="blue darken-3" v-if="$vuetify.breakpoint.mdAndUp">
       <v-layout column class="align-center">
-        <v-flex class="mt-5">
+        <v-flex class="mt-5 fill-height">
           <v-avatar size="150" class="align-center">
             <img src="../assets/Denis4.jpg" alt="Me" />
           </v-avatar>
@@ -72,11 +72,9 @@
         </v-list-item>
       </v-list> -->
    
-        <v-container class="mt-6">  
-      </v-container>
-<v-container class="mt-12">
-  
-      <v-layout class="mt-12">
+        <v-container class="mt-6">   
+      <v-container class="mt-12">
+        <v-container class="mt-12">
         <v-flex class="d-flex justify-center">
           <v-btn icon href=https://www.linkedin.com/in/denis-plaksiychuk-6b26327/>
             <v-icon >mdi-linkedin</v-icon>
@@ -88,9 +86,9 @@
           <v-icon>mdi-github</v-icon>
           </v-btn>
         </v-flex>
-      </v-layout>
-      
-  </v-container>
+      </v-container>
+      </v-container>
+   </v-container>
     </v-navigation-drawer>
   
   </nav>

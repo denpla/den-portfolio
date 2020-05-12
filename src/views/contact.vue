@@ -158,7 +158,8 @@ import emailjs from 'emailjs-com';
   } from "vuex"
 
   export default {
-    name: "Contact",data() {
+    name: "Contact",
+    data() {
     return {};
   },
      components: {

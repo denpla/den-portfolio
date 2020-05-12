@@ -34,7 +34,7 @@
 import { mapState } from "vuex";
 
 export default {
-  name: "Experience",
+  name: "experience",
 
   data: (vm) => ({
     light: vm.random(),

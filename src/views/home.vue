@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "home",
   components: {
     start: () => import("@/views/start"),
     about: () => import("@/views/about"),

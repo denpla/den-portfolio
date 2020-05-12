@@ -36,7 +36,7 @@
 <script>
 import { mapState } from "vuex";
 export default {
-  name: "Start",
+  name: "start",
   data() {
     return {
       text1: "Denis Plaksiychuk",

@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "Work",
+  name: "work",
 
   components: {
     Project: () => import("@/components/projects"),

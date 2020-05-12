@@ -58,7 +58,7 @@
 import { mapState } from "vuex";
 
 export default {
-  name: "Skills",
+  name: "skills",
 
   components: {
     EducationCard: () => import("@/components/educard"),

@@ -46,7 +46,7 @@
       </v-row>
 
       <v-img
-        src="@/assets/back1d.png"
+        :src="require('@/assets/back1d.png')"
         style="width: calc(100px + 15vw); margin-top: 95vh ; right: 0; position: absolute; top: 0px; z-index:0 "
       />
     </v-col>

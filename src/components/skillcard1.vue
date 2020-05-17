@@ -28,7 +28,6 @@ export default {
     value: {
       type: Object,
       default: () => ({
-        category: "",
         skills1: [],
       }),
     },

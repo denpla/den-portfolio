@@ -42,8 +42,13 @@
             Skills
           </h3>
 
-          <skill v-for="(skill, i) in schema.skills" :key="i" :value="skill" />
-          <skill1
+          <skill-card
+            v-for="(skill, k) in schema.skills"
+            :key="k"
+            :value="skill"
+          />
+
+          <skill1-card
             v-for="(skill1, j) in schema.skills1"
             :key="j"
             :value="skill1"
@@ -62,9 +67,9 @@ export default {
 
   components: {
     EducationCard: () => import("@/components/educard"),
-    Skill: () => import("@/components/skillcard"),
+    SkillCard: () => import("@/components/skillcard"),
     CertificationCard: () => import("@/components/certcard"),
-    Skill1: () => import("@/components/skillcard1"),
+    Skill1Card: () => import("@/components/skillcard1"),
   },
 
   computed: {

@@ -6,39 +6,27 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
+  base: process.env.BASE_URL,
   routes: [{
       path: '/',
       name: 'home',
       component: () => import('@/views/home'),
 
     },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('@/views/about'),
-    },
-    {
-      path: '/experience',
-      name: 'experience',
-      component: () => import('@/views/experience'),
-    },
-    {
-      path: '/skills',
-      name: 'skills',
-      component: () => import('@/views/skills'),
-    },
-    {
-      path: '/work',
-      name: 'work',
-      component: () => import('@/views/work'),
-    },
-    {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('@/views/contact'),
-    },
+
   ],
 })
-
+// Bootstrap Analytics
+// Set in .env
+// https://github.com/MatteoGabriele/vue-analytics
+if (process.env.VUE_APP_GOOGLE_ANALYTICS) {
+  Vue.use(require('vue-analytics').default, {
+    id: process.env.VUE_APP_GOOGLE_ANALYTICS,
+    router,
+    autoTracking: {
+      page: process.env.NODE_ENV !== 'development',
+    },
+  })
+}
 
 export default router

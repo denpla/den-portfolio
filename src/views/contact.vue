@@ -47,10 +47,11 @@
         <v-btn type="submit" value="Send" 
           class="ma-0"
           color="primary"
-          @click="resetForm()"   
+         @click="alertForm()"
         >
           Send
         </v-btn>
+         
       </v-form>
     </v-col>
 
@@ -158,9 +159,12 @@ import emailjs from 'emailjs-com';
   } from "vuex"
 
   export default {
-    name: "Contact",
+    name: "contact",
     data() {
-    return {};
+    return {
+  
+
+    };
   },
      components: {
     // back3: () => import("@/components/back3"),
@@ -171,7 +175,7 @@ import emailjs from 'emailjs-com';
     },
     methods: {
     sendEmail: (e) => {
-      emailjs.sendForm('gmail', 'template_D8LZSPcC', e.target, 'user_DoHt0fZco80Hoq7nB8hQb')
+      emailjs.sendForm('gmail', 'den_portfolio', e.target, 'user_DoHt0fZco80Hoq7nB8hQb')
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
         }, (error) => {
@@ -179,8 +183,8 @@ import emailjs from 'emailjs-com';
         });
     },
 
-    resetForm () {
-       document.getElementById("form").reset();
+    alertForm () {
+     //  document.getElementById("form").reset();
        alert("Thank you for the mail!");
          }
   }

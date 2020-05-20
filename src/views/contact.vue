@@ -24,7 +24,7 @@
           label="Name"
         />
 
-        <v-text-field type="email" name="user_email"
+        <v-text-field type="email"  name="user_email"
           solo-inverted
           flat
           label="Email"
@@ -47,7 +47,7 @@
         <v-btn type="submit" value="Send" 
           class="ma-0"
           color="primary"
-         @click="alertForm()"
+         @click="validateForm()"
         >
           Send
         </v-btn>
@@ -183,12 +183,23 @@ import emailjs from 'emailjs-com';
         });
     },
 
-    alertForm () {
+    validateForm () {
+
+     var fieldName=document.forms["form"]["user_name"].value;
+     var fieldMail=document.forms["form"]["user_email"].value;
+       
+       if (fieldName=="" && fieldMail=="" )
+       {
+         alert("Name and e-mail must be filled out!");
+         return false;
+         }
+       else {
      //  document.getElementById("form").reset();
        alert("Thank you for the mail!");
-         }
-  }
-  }
+      }
+     }
+ }
+ }
 </script>
 <style >
  </style>

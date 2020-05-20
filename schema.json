@@ -14,8 +14,7 @@
       "countryCode": "Belgium",
       "region": "Brussels"
     },
-    "profiles": [
-      {
+    "profiles": [{
         "network": "LinkedIn",
         "username": "Denis",
         "url": "https://www.linkedin.com/in/denis-plaksiychuk-6b26327/"
@@ -32,8 +31,7 @@
       }
     ]
   },
-  "work": [
-    {
+  "work": [{
       "company": "Intec Brussels",
       "position": "Front-End Developing course",
       "website": "http://www.intecbrussel.be/",
@@ -83,26 +81,23 @@
       "summary": "Design and implementation of the network projects at group of TAIF company. Customers support. PABX Ericsson MD110 andBusiness Phone commissioning. Powerware On-line UPS 60kVa installation."
     },
     {
-      "company": "CIVT KSU (The Center of Computer Techniques in the Kazan State University)",
+      "company": "CICT KSU (The Center of Computer Techniques in the Kazan State University)",
       "position": "Technical Support Specialist",
       "website": "https://kpfu.ru/eng",
       "startDate": "1997-01-01",
       "summary": "Design and implementation network projects at Kazan State University. Installation and administration the network infrastructure. Introduction to the Network Technologies lectures (KSU - developed) for various customers."
     }
   ],
-  "education": [
-    {
-      "institution": "Kazan State University",
-      "area": "Applied Mathematics",
-      "studyType": "Master",
-      "startDate": "1991-09-01",
-      "endDate": "1996-07-01",
-      "gpa": "",
-      "courses": [""]
-    }
-  ],
-  "certification": [
-    {
+  "education": [{
+    "institution": "Kazan State University",
+    "area": "Applied Mathematics",
+    "studyType": "Master",
+    "startDate": "1991-09-01",
+    "endDate": "1996-07-01",
+    "gpa": "",
+    "courses": [""]
+  }],
+  "certification": [{
       "date": "2008",
       "courses": "Oracle 9i SQL&PL/SQL basics"
     },
@@ -159,21 +154,18 @@
     "descr": "From 2010 till 2012 I've passed the training for Alcatel-Lucent BSS equipment: 9100 BTS, 9130 BSC&MFS MX, 9153 OMCR&NPO and also NRS1 (Network routing specialist) exam preparation and LTE including the introduction to SR 7750 equipment in Alcatel University Moscow."
   },
 
-  "skills": [
-    {
-      "name": "General",
-      "level": 5,
-      "level1": 4,
-      "level2": 3,
-      "keywords": [
-        "Platform troubleshooting",
-        "System administration",
-        "Front-End Developing"
-      ]
-    }
-  ],
-  "skills1": [
-    {
+  "skills": [{
+    "name": "General",
+    "level": 5,
+    "level1": 4,
+    "level2": 3,
+    "keywords": [
+      "Platform troubleshooting",
+      "System administration",
+      "Front-End Developing"
+    ]
+  }],
+  "skills1": [{
       "name": "Platforms",
       "keywords": [
         "MSC (Mobile Switching Center) Alcatel 1000 System 12",

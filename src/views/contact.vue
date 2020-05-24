@@ -47,8 +47,7 @@
         <v-btn type="submit" value="Send" 
           class="ma-0"
           color="primary"
-         @click="validateForm()"
-        >
+           >
           Send
         </v-btn>
          
@@ -162,9 +161,7 @@ import emailjs from 'emailjs-com';
     name: "contact",
     data() {
     return {
-  
-
-    };
+      };
   },
      components: {
     // back3: () => import("@/components/back3"),
@@ -174,17 +171,8 @@ import emailjs from 'emailjs-com';
       ...mapState('app', ['schema']),
     },
     methods: {
+
     sendEmail: (e) => {
-      emailjs.sendForm('gmail', 'den_portfolio', e.target, 'user_DoHt0fZco80Hoq7nB8hQb')
-        .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
-        }, (error) => {
-            console.log('FAILED...', error);
-        });
-    },
-
-    validateForm () {
-
      var fieldName=document.forms["form"]["user_name"].value;
      var fieldMail=document.forms["form"]["user_email"].value;
        
@@ -194,11 +182,17 @@ import emailjs from 'emailjs-com';
          return false;
          }
        else {
-     //  document.getElementById("form").reset();
-       alert("Thank you for the mail!");
+         alert("Thank you for the mail!");
       }
-     }
- }
+      emailjs.sendForm('gmail', 'den_portfolio', e.target, 'user_DoHt0fZco80Hoq7nB8hQb')
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+            document.getElementById("form").reset();
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    },
+    }
  }
 </script>
 <style >

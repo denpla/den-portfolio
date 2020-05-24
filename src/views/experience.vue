@@ -37,7 +37,7 @@ export default {
   name: "experience",
 
   data: (vm) => ({
-    light: vm.random(),
+    light: vm,
   }),
 
   computed: {
@@ -50,14 +50,8 @@ export default {
   methods: {
     getAttrs() {
       const attrs = {};
-
-      if (this.random()) attrs.fillDot = true;
-      if (this.random()) attrs.largeDot = true;
-
+      attrs.largeDot = true;
       return attrs;
-    },
-    random() {
-      return Boolean(Math.round(Math.random()));
     },
   },
 };

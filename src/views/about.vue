@@ -44,11 +44,14 @@
           </v-row>
         </v-col>
       </v-row>
-
-      <v-img
-        :src="require('@/assets/back1d.png')"
-        style="width: calc(100px + 15vw); margin-top: 95vh ; right: 0; position: absolute; top: 0px; z-index:0 "
-      />
+      <a
+        href="https://www.youracclaim.com/badges/f52029ce-ae5e-4876-bfa2-c455df43ff78/linked_in"
+      >
+        <v-img
+          :src="require('@/assets/back1a.png')"
+          style="width: calc(100px + 15vw); margin-top: 100vh ; right: 0; position: absolute; top: 0px; z-index:0 "
+        />
+      </a>
     </v-col>
   </v-container>
 </template>

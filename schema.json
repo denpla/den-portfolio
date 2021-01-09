@@ -5,8 +5,8 @@
     "picture": "",
     "email": "denpla@gmail.com",
     "phone": "+32 473-26-96-23",
-    "website": "http://denpla.com",
-    "summary": "I'm a dedicated and experienced telecommunication engineer within a total 16 years of experience of which 10 years in GSM and 6 years in fixed networks. In 1990 I fell in love with seeing a PC for the first time in my life. Here my passion for the IT industry began and so I've started my career in technical support in telecom. I was a specialist in PC hardware, designing, layout making, and system administrating. In 2020 I've decided to gain new skills and boost my career joining the training for Front-End Developing in the IT school INTEC Brussels. Currently, I'm looking for opportunities where I can further upgrade my programming skills and new horizons open up for me in the area of Front-End and possibly BackEnd development.",
+    "website": "https://denpla.one",
+    "summary": "I'm a dedicated and experienced telecommunication engineer with a total of 16 years of experience of which 10 years in GSM and 6 years in fixed networks. In 1990 with seeing a PC for the first time in my life I felt addicted to IT. Here my passion for the IT industry began and so I've started my career in technical support in telecom. I also was a specialist in PC hardware, designing, layout making, and system administrating. In 2020 I've decided to gain new skills and boost my career by joining the training for Front-End Developing in the IT school INTEC Brussels. This path led me to Kubernetes and this technology perfectly fit all my previous knowledge and skills. Currently, I'm moving in direction of DevOps.",
     "location": {
       "address": "Dieweg, 34A",
       "postalCode": "1180",
@@ -32,9 +32,16 @@
     ]
   },
   "work": [{
+    "company": "Waylay",
+    "position": "Kubernetes Engineer",
+    "website": "https://www.waylay.io/",
+    "startDate": "2020-10-12",
+    "summary": "As a Kubernetes Engineer, I'm working on the administration and design of Kubernetes clusters in GKE, creating resources using Terraform, applications deployment, and all kinds of troubleshooting actions."
+  },
+      {
       "company": "Intec Brussels",
       "position": "Front-End Developing course",
-      "website": "http://www.intecbrussel.be/",
+      "website": "https://www.intecbrussel.be/",
       "startDate": "2020-01-27",
       "summary": "Full-time intense course of HTML, CSS, Javascript and modern applications for Front-End Developing using also such popular Javascript frameworks as VUE and React."
     },
@@ -98,6 +105,10 @@
     "courses": [""]
   }],
   "certification": [{
+    "date": "2020",
+    "courses": "CKAD Certified Kubernetes Application Developer"
+    },
+    {
       "date": "2008",
       "courses": "Oracle 9i SQL&PL/SQL basics"
     },
@@ -185,7 +196,7 @@
     },
     {
       "name": "Operating Systems",
-      "keywords": ["Windows", "SUN Solaris 9/10", "HP-UX 11", "LINUX"]
+      "keywords": ["Windows", "SUN Solaris 9/10, HP-UX 11", "LINUX", "MacOS"]
     },
     {
       "name": "Network Protocols",
@@ -195,7 +206,6 @@
       "name": "Software",
       "keywords": [
         "Alcatel-Lucent SMA, SMC-CMC, OMCR",
-        "Tektronix K1297/K15  protocol tester software",
         "OSIX",
         "VMware",
         "Visual Studio Code"
@@ -206,7 +216,7 @@
       "keywords": [
         "Relational database S12",
         "Oracle 9i SQL&PL/SQL(basic)",
-        "Firebase"
+        "NoSQL"
       ]
     },
     {
@@ -214,7 +224,17 @@
       "keywords": [
         "S12 MPTMON script language (multiprocessor test monitor)",
         "Unix bash",
-        "HTML, CSS, Javascript"
+        "Javascript"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Google Cloud",
+        "Kubernetes",
+        "Terraform",
+        "Ansible",
+        "GitHub"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 <template>
 <v-container class="section1 pa-5 mx-0" id="contact">
-  <!-- <back3 /> -->
+  <!--   <back3 /> -->
       <h2
       :class="`display-${$vuetify.breakpoint.mdAndUp ? '3' : '2'}`"
        class="display-3 font-weight-thin grey--text mb-4">Contact Me</h2>
@@ -137,15 +137,15 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+        
     </v-col>
    </v-row>
    </v-col>
-  <!-- <v-img 
-        src="@/assets/back3c.png"
-        style="bottom: -20px; right: 0; position: absolute;"
-      />-->
+   <v-img 
+        src="@/assets/DevOps.png"
+        style="width: calc(60px + 15vw); bottom: 35px; right: 0; position: absolute;"
+      />
     </v-container>
-
 
  
 </template>

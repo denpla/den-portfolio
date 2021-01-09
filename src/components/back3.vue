@@ -1,17 +1,19 @@
 <template>
   <v-img
-    :src="require('@/assets/back3a.png')"
+    :src="require('@/assets/DevOps.png')"
     class="back3"
-    height="50%"
-    width="100%"
+    height="100"
+    width="100"
   />
 </template>
 
 <style lang="sass">
 .back3
   position: absolute !important
-  left: 0px
-  top: 500px
+  left: 100px
+  top: 0px
+  right: 0px
+  bottom: 0px
   z-index: 0 !important
 
   ~ *

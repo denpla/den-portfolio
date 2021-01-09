@@ -66,6 +66,22 @@
                 <div v-text="value.cat"></div>
               </v-list-item-title>
             </v-list-item>
+            <v-list-item>
+              <v-list-item-action>
+                <v-icon color="blue lighten-4">
+                  mdi-web
+                </v-icon>
+              </v-list-item-action>
+              <v-list-item-title class="mr-2">
+                Web
+              </v-list-item-title>
+              <v-list-item-title
+                v-if="value.web"
+                class="caption white--text text--lighten-1 hidden-sm-and-down"
+              >
+                <div v-text="value.web"></div>
+              </v-list-item-title>
+            </v-list-item>
           </v-list>
         </div>
       </v-col>

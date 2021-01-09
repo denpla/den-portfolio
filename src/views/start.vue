@@ -1,5 +1,5 @@
 <template>
-  <v-img :src="require('@/assets/Background3a.png')" height="95vh">
+  <v-img :src="require('@/assets/Background3a.png')" height="100vh">
     <div
       cols="12"
       md="6"
@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       text1: "Denis Plaksiychuk",
-      text2: "Telecom Technical Support Engineer & Junior Front-End Developer",
+      text2: "Telecom Technical Support & Kubernetes Engineer",
     };
   },
   computed: {

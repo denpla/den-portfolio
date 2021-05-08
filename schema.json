@@ -8,7 +8,6 @@
     "website": "https://denpla.one",
     "summary": "I'm a dedicated and experienced telecommunication engineer with a total of 16 years of experience of which 10 years in GSM and 6 years in fixed networks. In 1990 with seeing a PC for the first time in my life I felt addicted to IT. Here my passion for the IT industry began and so I've started my career in technical support in telecom. I also was a specialist in PC hardware, designing, layout making, and system administrating. In 2020 I've decided to gain new skills and boost my career by joining the training for Front-End Developing in the IT school INTEC Brussels. This path led me to Kubernetes and this technology perfectly fit all my previous knowledge and skills. Currently, I'm moving in direction of DevOps.",
     "location": {
-      "address": "Dieweg, 34A",
       "postalCode": "1180",
       "city": "Uccle",
       "countryCode": "Belgium",
@@ -36,7 +35,7 @@
     "position": "Kubernetes Engineer",
     "website": "https://www.waylay.io/",
     "startDate": "2020-10-12",
-    "summary": "As a Kubernetes Engineer, I'm working on the administration and design of Kubernetes clusters in GKE, creating resources using Terraform, applications deployment, and all kinds of troubleshooting actions."
+    "summary": "As a Kubernetes Engineer, I'm working on the administration and design of Kubernetes clusters in GCP, creating resources using Terraform, applications deployment, and all kinds of platform troubleshooting actions."
   },
       {
       "company": "Intec Brussels",
@@ -105,6 +104,10 @@
     "courses": [""]
   }],
   "certification": [{
+    "date": "2021",
+    "courses": "CKA Certified Kubernetes Administrator"
+    },
+    {
     "date": "2020",
     "courses": "CKAD Certified Kubernetes Application Developer"
     },

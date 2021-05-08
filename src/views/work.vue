@@ -39,9 +39,9 @@ export default {
         category: "Kubernetes Engineer",
         src: "Waylaya.png",
         descr:
-          "As a Kubernetes Engineer, I'm working on the administration and design of Kubernetes clusters in GKE, creating resources using Terraform, applications deployment, and all kinds of troubleshooting actions. Our product is the modular IoT platform providing best-of-breed OEM technology for back-end development and operations, enabling accelerated IoT solution delivery at scale.",
-        info: "Waylay IoT PAAS",
-        date: "2020",
+          "As a Kubernetes Engineer, I'm working on the administration and design of Kubernetes clusters in GCP, creating resources using Terraform, applications deployment, and all kinds of platform troubleshooting actions. Our product is the modular IoT platform providing best-of-breed OEM technology for back-end development and operations, enabling accelerated IoT solution delivery at scale.",
+        info: "Waylay IoT PaaS, SaaS",
+        date: "2020...",
         cat: "DevOps",
         web: "https://www.waylay.io",
       },

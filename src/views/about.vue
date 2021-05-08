@@ -45,11 +45,11 @@
         </v-col>
       </v-row>
       <a
-        href="https://www.youracclaim.com/badges/f52029ce-ae5e-4876-bfa2-c455df43ff78/linked_in"
+        href="https://www.credly.com/badges/bd2f504f-eaa5-45d6-a650-b3043f65f7c1/linked_in"
       >
         <v-img
-          :src="require('@/assets/back1a.png')"
-          style="width: calc(100px + 15vw); margin-top: 100vh ; right: 0; position: absolute; top: 0px; z-index:0 "
+          :src="require('@/assets/back1c.png')"
+          style="width: calc(20px+ 15vh); margin-top: 104vh ; right: 0; position: absolute; top: 0px; z-index:0"
         />
       </a>
     </v-col>

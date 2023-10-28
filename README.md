@@ -1,5 +1,5 @@
 # den-portfolio
-This is a big VUE.js project for Intec Brussels IT school. Project performed with VUE, Vuetify and VUEX.
+This is a project for Intec Brussels IT school. It's a portfolio site built with VUE, Vuetify, and VUEX.
 
 ## Project setup
 ```
